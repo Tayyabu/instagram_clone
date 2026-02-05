@@ -17,7 +17,6 @@ class CustomUserChangeForm(UserChangeForm):
     bio = forms.CharField(
         max_length=150, widget=forms.TextInput(attrs={"required": False})
     )
-
     class Meta:
         model = User
         fields = ("username", "email", "bio", "image")

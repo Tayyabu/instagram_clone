@@ -9,7 +9,7 @@ django.setup()
 
 # Now you can import your Django models
 from accounts.models import User
-from api.models import Post,Comment
+from core.models import Post,Comment
 
 fake = Faker()
 
